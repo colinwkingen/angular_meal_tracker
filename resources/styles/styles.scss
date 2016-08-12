@@ -1,15 +1,25 @@
 body {
-  background-color: #222;
+  background-color: #252016;
 }
 
 h1, h2, h3, h4, label {
   color: #FFC;
 }
 
+h1 {
+  font-size: 5.5em;
+  font-family: sans-serif;
+  text-shadow: 10px 10px #223311;
+  text-shadow: 14px 18px #193015;
+}
+
 .each_meal {
   margin: 10px;
   background-color: #752;
   color: #FFC;
+  border-radius: 6%;
+  border-style: solid;
+  border-color: #964;
 }
 
 #page_head {
