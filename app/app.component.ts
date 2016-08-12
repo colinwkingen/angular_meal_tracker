@@ -8,8 +8,8 @@ import { MealComponent } from './meal.component';
   selector: 'my-app',
   directives: [ MealListComponent, MealComponent ],
   template: `
-    <h1>My Burger Pal</h1>
-    <div class="container">
+    <h1 class="page-header top_header">My Burger Pal</h1>
+    <div class="container row">
       <meal-submit></meal-submit>
       <meal-list [meals]="meals"></meal-list>
     </div>

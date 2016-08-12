@@ -5,7 +5,7 @@ import { Meal } from './meal.model';
   selector: 'meal-display',
   inputs: ['meal'],
   template: `
-    <div class="container row well">
+    <div class="container row each_meal">
       <div class="col-md-12">
         <h2>{{ meal.name }} - {{ meal.type }} - {{ meal.calories.toString() }}</h2>
       </div>

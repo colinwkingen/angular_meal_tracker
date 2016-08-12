@@ -1,12 +1,12 @@
 {
-  "name": "app",
+  "name": "angular_meal_tracker",
+  "description": "",
+  "main": "index.js",
   "authors": [
     "Colin Kingen <colinwkingen@gmail.com>"
   ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
-  "homepage": "",
+  "license": "ISC",
+  "homepage": "https://github.com/colinwkingen/angular_meal_tracker",
   "ignore": [
     "**/.*",
     "node_modules",
