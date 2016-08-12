@@ -7,7 +7,7 @@ import { Meal } from './meal.model';
   template: `
     <div class="container row each_meal">
       <div class="col-md-12">
-        <h2>{{ meal.name }} - {{ meal.type }} - {{ meal.calories.toString() }}</h2>
+        <h2>{{ meal.name }} - Eaten for : {{ meal.type }} - Calories : {{ meal.calories.toString() }}</h2>
       </div>
       <div class="col-md-12">
         <h3>Description : </h3>
