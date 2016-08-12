@@ -1,9 +1,25 @@
 body {
   background-color: #222;
+}
+
+h1, h2, h3, h4, label {
   color: #FFC;
 }
 
 .each_meal {
   margin: 10px;
   background-color: #752;
+  color: #FFC;
+}
+
+#page_head {
+  margin-left: 50px;
+}
+
+option {
+  color: black;
+}
+
+.btn-default, select {
+  margin: 20px;
 }

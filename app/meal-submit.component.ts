@@ -5,18 +5,16 @@ import { Meal } from './meal.model';
   selector: 'meal-submit',
   outputs: ['onSubmit'],
   template: `
-    <div class="col-lg-3">
       <h4>Add another burger:</h4>
-      <label>Burger Name: </label>
+      <label>New Burger Name: </label>
       <input placeholder="Name" #newName>
-      <label>Meal Type: </label>
+      <label>Meal Consumed At: </label>
       <input placeholder="Type" #newType>
       <label>Burger Calories: </label>
       <input type="number" placeholder="Calories" #newCalories>
       <label>Burger Description: </label>
-      <input placeholder="Description" #newDescription>
+      <textarea rows="4" cols="25" placeholder="Description" #newDescription></textarea>
       <button class="btn btn-default" (click)="submitMeal(newName, newType, newCalories, newDescription)">Log that Burger!</button>
-    </div>
   `
 })
 export class MealSubmitComponent {
